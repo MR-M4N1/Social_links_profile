@@ -1,0 +1,110 @@
+body {
+    background-color: hsl(0, 0%, 8%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+a,
+p {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-family: Inter;
+}
+
+.web_page {
+    background-color: hsl(0, 0%, 12%);
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 16px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.user_picture {
+    width: 70px;
+    border-radius: 45px;
+}
+
+.web_text {
+    text-align: center;
+}
+
+.title_text {
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.location_text {
+    color: hsl(75, 94%, 57%);
+    font-size: 14px;
+    margin-top: -10px;
+}
+
+.Information_text {
+    font-size: 12px;
+    margin-top: 20PX;
+}
+
+.web_anchor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.web_anchor>a {
+    margin-top: 10px;
+    background-color: hsl(0, 0%, 20%);
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.web_anchor>a:active {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
+
+.GitHub_anchor {
+    padding: 10px 90px;
+}
+
+.frontendmentor_anchor {
+    padding: 10px 61.8675px;
+}
+
+.LinkedIn_anchor {
+    padding: 10px 86px;
+}
+
+.Twitter_anchor {
+    padding: 10px 89.9065px;
+}
+
+.Instagram_anchor {
+    padding: 10px 81.3125px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+
+.attribution a {
+    color: hsl(75, 94%, 57%);
+}
+
+
+@media screen and (min-width: 768px) {
+    body {
+        height: 100vh;
+    }
+}
