@@ -107,4 +107,6 @@ p {
     body {
         height: 100vh;
     }
+    .web_page{
+        width:500px;
 }
