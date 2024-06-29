@@ -19,8 +19,8 @@
 
 ### Screenshot
 
-![](./assets/images/screenshot_1.jpg)
-![](./assets/images/screenshot_2.jpg)
+![](./assets/images/screenshot_1.JPG)
+![](./assets/images/screenshot_2.JPG)
 
 
 ### Links
